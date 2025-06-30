@@ -256,9 +256,11 @@ body{
     /* gap: 10px; */
     flex-direction: column;
 }
-.recent-album img{
+.recent-album img,
+.recent-albu img{
     width: 144px;
     padding-bottom: 10px;
+    border-radius: 5px;
 }
 .recent-album p{
     padding-top: 4px;
@@ -271,7 +273,16 @@ body{
     display: flex;
     gap: 40px;
 }
-
+.recent-albu{
+    width: 160px;
+    height: 180px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    flex-direction: column;
+}
 
 
 
