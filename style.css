@@ -21,10 +21,13 @@ body{
     flex-direction: column;
     padding: 8px;
     gap: 10px;
+    height: calc(100vh - 64px);
+
 }
 .main-content{
     /* background-color: aquamarine; */
     flex: 1;
+    overflow-y: scroll;
 }
 
 .sidebar-upper-section{
@@ -118,13 +121,17 @@ body{
     gap: 10px;
 }
 .music-icon{
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
     border-radius: 8px;
     background-color: rgb(80, 80, 80);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.music-icon img{
+    width: 60px;
+    height: 60px;
 }
 
 .music-text img{
@@ -146,6 +153,7 @@ body{
     margin-right: 8px;
     background-color: #1f1f1f;
     border-radius: 10px;
+    height: calc(100vh - 80px);
     /* padding: 20px; */
 }
 .main-section{
@@ -262,7 +270,8 @@ body{
     padding-bottom: 10px;
     border-radius: 5px;
 }
-.recent-album p{
+.recent-album p,
+.recent-albu p{
     padding-top: 4px;
     font-size: 12px;
     width: 144px;
@@ -275,7 +284,7 @@ body{
 }
 .recent-albu{
     width: 160px;
-    height: 180px;
+    height: 220px;
     background-color: #444;
     display: flex;
     align-items: center;
