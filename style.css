@@ -418,3 +418,58 @@ body{
     height: 3px;
     background-color: green;
 }
+@media screen and (max-width:600px) {
+    .music-player-content{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .arrow-btn{
+        display: none;
+    }
+    .person{
+        display: none;
+    }
+    .recent-container{
+        overflow-x: scroll;
+    }
+}
+@media screen and (min-width:600px) {
+    .ham-bars{
+        display: none;
+    }
+    .Mobile-View-Content{
+        display: none;
+    }
+    
+
+}
+
+.Mobile-View-Content{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.Mobile-View-Content img{
+    width: 60px;
+    height: 60px;
+}
+.Mobile-View-text p{
+    font-size: 12px;
+}
+#pc-icon{
+    width: 30px;
+    height: 25px;
+}
+.Mobile-View-Content .add-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
